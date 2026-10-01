@@ -12,7 +12,7 @@ from groq import Groq
 
 from app.core.config import settings
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
 
 SYSTEM_PROMPT = """You are a fraud investigation assistant for a bank's fraud operations team.
 You are given a transaction that a machine learning model has already flagged, along with the
